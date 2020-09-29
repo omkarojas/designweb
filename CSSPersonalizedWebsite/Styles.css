@@ -1,0 +1,107 @@
+body {
+  margin: 0px;
+  text-align: center;
+font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 4.5625rem;
+  margin-top: 0px;
+  font-family: 'Sacramento', cursive;
+  color: #ff9a76;
+}
+h2{
+  font-size: 2.50rem;
+  color: #ff9a76;
+}
+hr{
+  border: dotted #eeeeee 6px;
+  border-bottom: none;
+  width: 10%;
+
+
+}
+a{
+  color: black;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+
+.normal{
+  font-weight: bolder;
+    color: #ff9a76;
+}
+
+.first {
+  background-color: #f9f7d9;
+  padding-top: 100px;
+  line-height: 2;
+}
+
+.middle-container{
+
+}
+
+.bottom-container{
+background-color: #f9f7d9;
+padding: 50px 0 20px;
+}
+
+
+
+.topCloud {
+  position:absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.bottomCloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.monitor{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.logical-thinking{
+  width:30%;
+  float: right;
+  margin-left: 30px;
+}
+.skill-row{
+width:30%;
+margin: 100px auto 100px;
+text-align: left;
+line-height: 2;
+}
+.margin{
+  margin: 39px auto 39px auto;
+}
+.myButton {
+	box-shadow: 3px 4px 0px 0px #899599;
+	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	background-color:#ededed;
+	border-radius:42px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#ff9a76;
+	font-family:'Montserrat', sans-serif;
+	font-size:17px;
+	font-weight:bold;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 50px #e1e2ed;
+  margin-bottom: 50px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+	background-color:#bab1ba;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
